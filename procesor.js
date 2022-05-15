@@ -1,8 +1,8 @@
   const processor = {};
 
   processor.doLoad = function doLoad() {
-    const video = document.getElementById('video');
-    this.video = video;
+    const video = document.getElementById('ok_content_widget');
+    this.ok_content_widget = video;
 
     this.c1 = document.getElementById('c1');
     this.ctx1 = this.c1.getContext('2d');
